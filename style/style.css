@@ -41,3 +41,9 @@ div label {
     justify-content: center;
     align-items: center;
 }
+.add-expense {
+    padding: 10px;
+    background: green;
+    font-size: 20px;
+    color: #fcfcfc;
+}
