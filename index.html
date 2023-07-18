@@ -9,13 +9,20 @@
 </head>
 
 <body>
-    <div class="input-container">
-        <label for="expense-name">name</label>
-        <input type="text" name="expense-name" id="expense-name">
-        <label for="expense-amount">Amount</label>
-        <input type="number" name="expense-amount" id="expense-amount">
-    </div>
-    <div class="expense-list"></div>
+    <div class="container">
+        <div class="input-container">
+            <div class="input-info">
+                <label for="expense-name">name</label>
+                <input type="text" name="expense-name" id="expense-name" placeholder="Expense Name">
+                </div>
+                <div class="input-info">
+                    <label for="expense-amount">Amount</label>
+                <input type="number" name="expense-amount" id="expense-amount" placeholder="Expense Amount">
+                </div>
+        </div>
+        <div class="expense-list">expense-list</div>
+        </div>
+        <script src="main.js"></script>
 </body>
 
 </html>
