@@ -69,7 +69,7 @@ div label {
 .expense-list {
     list-style: none;
     overflow: scroll;
-    height: 500px;
+    height: 400px;
     width: 500px;
 
 }
