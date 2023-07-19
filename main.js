@@ -1,11 +1,13 @@
 function addToExpenseList(text, amount) {
-  return `<ul class="expense-item">
-    <li> ${text}</li>
-    <li> ${amount}</li>
-    <li> <button class="delete">DELETE<button></li>
-    </ul> `;
+  return `<li>
+    <span> ${text}</span>
+    <span> ${amount}</span>
+    <button class="delete">DELETE<button>
+    </li>`;
 }
 
 $(document).ready(function () {
   let inputName = $("#expense-name").val();
+  let inputAmount = $("#expense-amount").val();
+  let expenseList = $(".expense-list");
 });
