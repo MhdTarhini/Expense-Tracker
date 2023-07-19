@@ -1,7 +1,9 @@
 function ExpenseListItem(text, amount) {
-  return `<li>
-    <p>${text}</p>
-    <p class="item-amount">${amount}</p>$
+  return `<li class="expense-items">
+  <div>
+    <span>${text}</span>
+    <span class="item-amount">${amount}$</span>
+  </div>
     <button class="delete-expense">DELETE</button>
     </li>`;
 }
@@ -9,6 +11,7 @@ let total_price = 0;
 function AddToExpenseList() {
   let input_name = $("#expense-name");
   let input_amount = $("#expense-amount");
+  console.log(input_amount.val());
   const expense_list = $(".expense-list");
 
   if (input_name.val().trim() === "") {
